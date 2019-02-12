@@ -26,7 +26,8 @@ Crer dos llamdas a sistema con sus respectivos comandos para apagar y reiniciar.
   
  ## Qué aprendí
  
+ 
  ## Url del commit:
- 
- 
+
+ https://github.com/aranzanflores/so-gp1/commit/5c3d751c181d7067147a2bc51e0da5e05983fb47
   

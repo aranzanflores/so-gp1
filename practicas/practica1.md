@@ -26,6 +26,7 @@ Crer dos llamdas a sistema con sus respectivos comandos para apagar y reiniciar.
   
  ## Qué aprendí
  
+ Aprendí a utilizar llamadas al sistema para un sistema operativo como el que estamos utilizando. Además, aprendí que es necesario tener una interface entre la llamada al sistema y el usuario que consiste en código en c.
  
  ## Url del commit:
 

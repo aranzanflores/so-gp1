@@ -145,8 +145,9 @@ int
 main(void)
 {
   static char buf[100];
+  static char prevBuf[100];	
   int fd;
-
+  int i;
   // Ensure that three file descriptors are open.
   while((fd = open("console", O_RDWR)) >= 0){
     if(fd >= 3){
@@ -157,6 +158,11 @@ main(void)
 
   // Read and run input commands.
   while(getcmd(buf, sizeof(buf)) >= 0){
+    if(buf[0]=='p' && buf[1] == '\n'){
+		if(fork1()== 0)
+			runcmd(parsecmd(prevBuf));
+		wait();
+	}else {
     if(buf[0] == 'c' && buf[1] == 'd' && buf[2] == ' '){
       // Chdir must be called by the parent, not the child.
       buf[strlen(buf)-1] = 0;  // chop \n
@@ -166,7 +172,11 @@ main(void)
     }
     if(fork1() == 0)
       runcmd(parsecmd(buf));
+	 for (i = 0; i<100; i +=1){
+		 prevBuf[i] = buf[i];
+	 }
     wait();
+	}
   }
   exit();
 }

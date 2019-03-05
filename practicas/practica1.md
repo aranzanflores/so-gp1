@@ -26,7 +26,9 @@ Crer dos llamdas a sistema con sus respectivos comandos para apagar y reiniciar.
   
  ## Qué aprendí
  
+ Aprendí a utilizar llamadas al sistema para un sistema operativo como el que estamos utilizando. Además, aprendí que es necesario tener una interface entre la llamada al sistema y el usuario que consiste en código en c.
+ 
  ## Url del commit:
- 
- 
+
+ https://github.com/aranzanflores/so-gp1/commit/5c3d751c181d7067147a2bc51e0da5e05983fb47
   

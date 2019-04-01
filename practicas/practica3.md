@@ -9,7 +9,7 @@ Crear un nuevo planificador de basado en prioridades. Crear un programa para pro
 ## Conceptos
 
 + Planificador 
-++ Selecciona el proceso a ejectutar
+  ++ Selecciona el proceso a ejectutar
 
 ++ Cambio de contexto: 
 
@@ -21,4 +21,5 @@ Crear un nuevo planificador de basado en prioridades. Crear un programa para pro
 ## Qué aprendí?
 
 ## Url del commit
+https://github.com/aranzanflores/so-gp1/commit/ac023ce39ade423b76196f06152bd85f853bcd26
 

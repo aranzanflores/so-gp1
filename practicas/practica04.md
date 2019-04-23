@@ -28,3 +28,5 @@ Hacer un solo spike sobre IPC: señales, fork/exec, memoria compartida y archivo
 # Qué aprendi 
 
 # Url del commit
+
+https://github.com/aranzanflores/so-gp1/commit/56d038d75073ae652097aa81c270ce34f8db40dc

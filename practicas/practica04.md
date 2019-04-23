@@ -16,12 +16,12 @@ Hacer un solo spike sobre IPC: señales, fork/exec, memoria compartida y archivo
  El emisor manda una señal y el receptor deja de hacer lo que está haciendo y ejecuta el código de la señal. 
  + Existen varias señales, para listarlas puedo usar el comando kill -1.
  
-+ Memoria compartida :
++ Memoria compartida:
   + Se crea un bloque de memoria, el bloque de memoria tiene un key. 
   + Cualquier proceso con el ey se puede conectar al bloque. 
   + El bloque de memoria persiste hasta que se borre mediante un comando o se reinicie la computadora.
 
-+ Archivos mapeados a memoria":
++ Archivos mapeados a memoria:
   + Es un bloque de memoria compartida que está asociado a un archivo. 
   + Los cambios en el bloque se guardan automáticamente.
   

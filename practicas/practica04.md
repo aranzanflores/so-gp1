@@ -18,7 +18,7 @@ Hacer un solo spike sobre IPC: señales, fork/exec, memoria compartida y archivo
  
 + Memoria compartida:
   + Se crea un bloque de memoria, el bloque de memoria tiene un key. 
-  + Cualquier proceso con el ey se puede conectar al bloque. 
+  + Cualquier proceso con el key se puede conectar al bloque. 
   + El bloque de memoria persiste hasta que se borre mediante un comando o se reinicie la computadora.
 
 + Archivos mapeados a memoria:
@@ -27,6 +27,9 @@ Hacer un solo spike sobre IPC: señales, fork/exec, memoria compartida y archivo
   
 # Qué aprendi 
 
+Aprendí que los procesos pueden utilizar un mismo bloque de memoria y pueden accesar a este bloque con una llave. Un IPC permite facilitar la comunicación entre procesos.
+
 # Url del commit
 
 https://github.com/aranzanflores/so-gp1/commit/56d038d75073ae652097aa81c270ce34f8db40dc
+

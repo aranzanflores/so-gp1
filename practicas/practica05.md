@@ -26,4 +26,10 @@ Hacer un spike sobre hilos, semáforos y locks.
     
 # ¿Que aprendí?
 
+
+Aprendí que no todos los hilos pueden tener acceso al recurso de sistema al mismo tiempo, por esto compiten por los recursosde distintas maneras. 
+
+
+
 # Url del commit
+https://github.com/aranzanflores/so-gp1/commit/bbd09201295d177a7064941d1b495a6a3bf231e8
